@@ -85,9 +85,9 @@ const renderScene = ({ route }) => {
         case "robo09":
             return Robo("robo09");
         case "robo10":
-            return Robo("robo09");
+            return Robo("robo10");
         case "robo11":
-            return Robo("robo09");
+            return Robo("robo11");
         default:
             return null;
     }
@@ -98,24 +98,26 @@ const renderTabBar = (props) => (
         {...props}
         style={{ backgroundColor: "black", color: "white" }}
         labelStyle={{ color: "white", fontSize: 10 }}
-        activeColor="#b02b2e"
+        activeColor="#22F9FD"
         inactiveColor="white"
-        indicatorStyle={{ backgroundColor: "#b02b2e" }}
+        indicatorStyle={{ backgroundColor: "#22F9FD" }}
     />
 );
 
 export default function TabViewExample() {
     const [index, setIndex] = React.useState(0);
     const [routes] = React.useState([
-        { key: "robo01", title: "1" },
-        { key: "robo02", title: "2" },
-        { key: "robo03", title: "3" },
-        { key: "robo04", title: "4" },
-        { key: "robo05", title: "5" },
-        { key: "robo06", title: "6" },
-        { key: "robo07", title: "7" },
-        { key: "robo08", title: "8" },
-        { key: "robo09", title: "9" },
+        { key: "robo01", title: "01" },
+        { key: "robo02", title: "02" },
+        { key: "robo03", title: "03" },
+        { key: "robo04", title: "04" },
+        { key: "robo05", title: "05" },
+        { key: "robo06", title: "06" },
+        { key: "robo07", title: "07" },
+        { key: "robo08", title: "08" },
+        { key: "robo09", title: "09" },
+        { key: "robo08", title: "10" },
+        { key: "robo09", title: "11" },        
     ]);
     return (
         <View style={{ flex: 1 }}>
