@@ -116,8 +116,8 @@ export default function TabViewExample() {
         { key: "robo07", title: "07" },
         { key: "robo08", title: "08" },
         { key: "robo09", title: "09" },
-        { key: "robo08", title: "10" },
-        { key: "robo09", title: "11" },        
+        { key: "robo10", title: "10" },
+        { key: "robo11", title: "11" },        
     ]);
     return (
         <View style={{ flex: 1 }}>
